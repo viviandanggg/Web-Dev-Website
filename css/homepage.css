@@ -1,0 +1,14 @@
+main {
+    background-image: url("paintlines.png");
+    background-position: top left;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#homepage-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#covergirl {
+    height: 80vh;
+}
