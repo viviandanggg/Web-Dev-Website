@@ -1,14 +1,39 @@
 main {
     background-image: url("paintlines.png");
     background-position: top left;
-    background-size: contain;
+    background-size: auto 100%;
     background-repeat: no-repeat;
 }
-#homepage-main {
+
+#homepage {
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    align-items: center;
 }
+
+#homepage-img {
+    display: flex;
+    justify-content: flex-end;
+}
+
 #covergirl {
-    height: 80vh;
+    height: 72vh;
+}
+
+#homepage-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    /* background-color: rgba(231, 214, 192, .7);
+    border: 3px solid #25190C; */
+
+    padding: 20px;
+    margin: 30px;
+}
+
+#homepage-content > p {
+    margin: 10px 0px;
+    font-size: 2em;
 }
