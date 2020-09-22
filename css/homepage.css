@@ -21,19 +21,31 @@ main {
 }
 
 #homepage-content {
-    display: flex;
+     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: flex-start;
 
     /* background-color: rgba(231, 214, 192, .7);
     border: 3px solid #25190C; */
 
     padding: 20px;
-    margin: 30px;
+    margin: 0px 100px;
 }
 
-#homepage-content > p {
+.homepage-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+
     margin: 10px 0px;
     font-size: 2em;
+}
+
+.wow {
+    display: flex;
+    align-items: flex-start;
+    font-size: 5em;
+    margin-top: 30px;
 }
