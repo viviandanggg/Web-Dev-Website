@@ -19,6 +19,7 @@ header {
     width: 100vw;
     position: fixed;
     flex-grow: 1;
+    z-index: 5;
 }
 
 a {
