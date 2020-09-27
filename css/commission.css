@@ -36,6 +36,7 @@ main {
 }
 
 #commission {
+    position: relative;
     border: rgba(255, 255, 255, .5) 15px solid;
     margin: 20px 50px;
 }
@@ -44,13 +45,15 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px 30px;
+    padding: 30px 30px;
 }
 
 #commission-title {
     margin: 0px;
-    font-size: 3em;
-    text-align: center;
+    font-size: 2.6em;
+    position: absolute;
+    left: 5%;
+    bottom: 97%;
 }
 
 #prices {
