@@ -1,19 +1,52 @@
+#slides {
+    margin: 30px 0px;
+    position: relative;
+    margin: 10px 50px;
+}
+
+#slides > h3 {
+    font-size: 2.6em;
+    position: absolute;
+    bottom: 60%;
+    left: 5%;
+    z-index: 1;
+}
+
 .slide {
-    height: 25%;
-    padding: 10px;
-    margin-top: 10px;
+    padding: 30px;
+    border: rgba(255, 255, 255, .5) 15px solid;
+    display: none;
+}
+
+.quote-author, .quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25em;
 }
 
 .quote-author {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
     margin: 0;
     padding: 0px 30px;
 }
 
-.quote {
+#commission-content {
+    margin: 40px 50px;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
+}
+
+#prices {
+    margin: 30px;
+    font-size: 1.25em;
+}
+
+#commission-content > img {
+    height: 75vh;
+}
+
+#commission-content > h3 {
+    font-size: 4em;
 }
