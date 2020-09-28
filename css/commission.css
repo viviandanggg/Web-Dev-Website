@@ -9,16 +9,20 @@ main {
     margin: 30px 50px;
 }
 
-#slides > h3 {
+#slides > h3, #slides > h2 {
     font-size: 2.6em;
     position: absolute;
-    bottom: 60%;
+    bottom: 65%;
     left: 5%;
     z-index: 1;
 }
 
+#slides > h2 {
+    font-size: 1.5em;
+}
+
 .slide {
-    padding: 30px;
+    padding: 50px;
     border: rgba(255, 255, 255, .5) 15px solid;
     display: none;
 }
