@@ -1,0 +1,10 @@
+#about-content > img {
+    height: 50vh;
+}
+
+#about-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

@@ -2,6 +2,92 @@ main {
     background-image: url("resized_background.png");
     background-size: 100% 100%;;
     background-repeat: no-repeat;
+    padding-bottom: 10px;
+}
+
+#commission {
+    position: relative;
+    border: rgba(255, 255, 255, .5) 15px solid;
+    margin: 0px 50px;
+    margin-bottom: 20px;
+}
+
+#commission-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+#commission-title {
+    margin: 0px;
+    font-size: 2.5em;
+    position: absolute;
+    left: 5%;
+    bottom: 97%;
+}
+
+#commission-content > img {
+    border: #25190C solid 15px;
+    height: 50vh;
+}
+
+#prices {
+    margin-left: 50px;
+}
+
+#prices > h4 {
+    font-size: 1.75em;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+#prices > p {
+    font-size: 1.25em;
+}
+
+#slides {
+    position: relative;
+    margin: 30px 50px 10px 50px;
+}
+
+.slide {
+    padding: 30px;
+    padding-top: 50px;
+    border: rgba(255, 255, 255, .5) 15px solid;
+    display: none;
+}
+
+#reviews-title {
+    position: absolute;
+    bottom: 72%;
+    left: 5%;
+}
+
+#reviews-title > h3 {
+    line-height: 85%;
+    margin: 0;
+    font-size: 2.5em;
+}
+
+#reviews-title > h4 {
+    margin: 0;
+    font-size: 1.75em;
+}
+
+.quote-author, .quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25em;
+}
+
+
+/* main {
+    background-image: url("resized_background.png");
+    background-size: 100% 100%;;
+    background-repeat: no-repeat;
+    padding: 5px;
 }
 
 #slides {
@@ -73,4 +159,4 @@ main {
 
 #prices > h2 {
     font-size: 1.5em;
-}
+} */

@@ -3,60 +3,56 @@ main {
     background-position: top left;
     background-size: auto 100%;
     background-repeat: no-repeat;
+}
 
+#homepage {
+    height: 72vh;
+    position: relative;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-#homepage {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-end;
-}
-
-#covergirl {
-    z-index: 1;
-    height: 72vh;
-}
-
-#square {
+#outline {
     width: 800px;
     height: 400px;
     border: 15px solid rgba(255, 255, 255, .5);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+}
+
+#covergirl {
+    height: 72vh;
     position: absolute;
-    z-index: 0;
+    bottom: 0;
+    z-index: 1;
 }
 
 #homepage-content {
-    position: absolute;
-    display: inline;
+    width: 300px;
+    display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: flex-start;
-    left: 65%;
+    position: absolute;
+    bottom: 30%;
+    left: 85%;
     z-index: 2;
 }
 
 .homepage-txt {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-start;
-
-    flex-wrap: nowrap;
-
-    margin: 20px 0px;
+    margin: 5px 0px;
     font-size: 2em;
 }
 
-.wow {
+#wow {
     line-height: 85%;
     position: absolute;
+    bottom: 0;
     z-index: 2;
     font-size: 10em;
     margin: 0;
     color: white;
-}
+} 
