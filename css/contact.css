@@ -1,0 +1,71 @@
+#contact-root {
+    margin: 0px 50px;
+    margin-bottom: 20px;
+    position: relative;
+}
+#contact-root > h3 {
+    margin: 0;
+    font-size: 2.5em;
+    position: absolute;
+    left: 5%;
+    bottom: 95%;
+}
+
+#contact-content {
+    padding: 10px;
+    border: rgba(255, 255, 255, .5) 15px solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact-content > img {
+    height: 72vh;
+    margin: 25px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label, p, button {
+    font-size: 1.20em;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    border: none;
+    background-color: rgba(255, 255, 255, .5);
+    width: 520px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    height: 150px;
+}
+
+button {
+    border: none;
+    width: 100px;
+    background-color: #D48C70;
+    cursor: pointer;
+    padding: 5px;
+}
+
+#social-links > a > img {
+    width: 40px;
+}
+
+#insta {
+    margin-right: 5px;
+}
+
+#social-links > p {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}

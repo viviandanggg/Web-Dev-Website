@@ -44,6 +44,7 @@ main {
 
 #prices > p {
     font-size: 1.25em;
+    margin: 10px 0px;
 }
 
 #slides {
@@ -73,6 +74,14 @@ main {
 #reviews-title > h4 {
     margin: 0;
     font-size: 1.75em;
+}
+
+.quote {
+    margin-bottom: 10px;
+}
+
+.quote-author {
+    margin-top: 0;
 }
 
 .quote-author, .quote {
