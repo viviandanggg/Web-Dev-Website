@@ -56,3 +56,82 @@ main {
     margin: 0;
     color: white;
 } 
+
+@media(max-width: 1000px) {
+    #homepage {
+        height: 110vh;
+    }
+
+    #outline {
+        margin-top: 15px;
+        width: 500px;
+        height: 650px;
+    }
+
+    #homepage-content {
+        bottom: 67%;
+        left: 30%;
+        align-items: flex-end;
+    }
+
+    #wow {
+        font-size: 9em;
+    }
+
+    #covergirl {
+        height: 70vh;
+    }
+
+    .homepage-txt {
+        font-size: 1.85em;
+    }
+}
+
+@media(max-width: 500px) {
+    #outline {
+        margin-top: 15px;
+        width: 375px;
+        height: 650px;
+    }
+
+    #homepage-content {
+        bottom: 70%;
+        left: 12%;
+    }
+
+    #wow {
+        font-size: 8em;
+    }
+
+    #covergirl {
+        height: 68vh;
+    }
+
+    .homepage-txt {
+        font-size: 1.80em;
+    }
+}
+
+@media(max-width: 380px) {
+    #outline {
+        width: 300px;
+        height: 650px;
+    }
+
+    #homepage-content {
+        bottom: 70%;
+        left: 12%;
+    }
+
+    #wow {
+        font-size: 7.5em;
+    }
+
+    #covergirl {
+        height: 66vh;
+    }
+
+    .homepage-txt {
+        font-size: 1.75em;
+    }
+}
