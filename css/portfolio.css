@@ -8,3 +8,9 @@ main > img {
     width: 350px;
     margin: 5px;
 }
+
+@media (max-width: 500px) {
+    main > img {
+        width: 250px;
+    }
+}

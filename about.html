@@ -7,11 +7,19 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display&display=swap">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/about.css">
+    <script defer src="javascript/main.js"></script>
     <title>ABOUT | LAUREN CHANG</title>
 </head>
 <body>
     <header>
-        <nav>
+        <div id="menu-button">
+            <svg viewBox="0 0 100 80" width="30" height="30">
+                <rect fill=”#25190C” width = "100" height="15"></rect>
+                <rect fill="#25190C" y ="30" width = "100" height="15"></rect>
+                <rect fill="#25190C" y="60" width = "100" height="15"></rect>
+            </svg>
+        </div> 
+        <nav id="navigation">
             <ul id="navlinks" class="serif-font">
                 <li class="navlink"><a href="index.html" title="Home">HOME</a></li>
                 <li class="navlink"><a href="portfolio.html" title="Portfolio">PORTFOLIO</a></li>
@@ -20,20 +28,22 @@
                 <li class="navlink"><a href="contact.html" title="Contact">CONTACT</a></li>
             </ul>
         </nav>
-        <div id="header-logo">
-            <h1 class="serif-font"><a href="index.html">LAUREN CHANG</a></h1>
-        </div>
-        <div id="tagline">
-            <h2 class="sans-font">GRAPHIC</h2>
-            <img src="images/logo_pic.png" alt="Logo Icon">
-            <h2 class="sans-font">DESIGNER</h2>
+        <div id="title-tagline">
+            <div id="header-logo">
+                <h1 class="serif-font"><a href="index.html">LAUREN CHANG</a></h1>
+            </div>
+            <div id="tagline">
+                <h2 class="sans-font">GRAPHIC</h2>
+                <img src="images/logo_pic.png" alt="Logo Icon">
+                <h2 class="sans-font">DESIGNER</h2>
+            </div>
         </div>
     </header>
     <main>
         <div id="about-div">
             <h3 class="serif-font">ABOUT ME</h3>
             <div id="about-content">
-                <img src="images/breakfast.JPG" alt="Picture of Lauren Chang">
+                <img src="images/lauren-chang.jpeg" alt="Picture of Lauren Chang">
                 <div id="about-text">
                     <h4 class="serif-font">HEY THERE, I'M LAUREN CHANG</h3>
                     <p class="sans-font">As a Graphic Design Major at James Madison University and a freelance designer, I have experience in logo design, web design, layout design, and illustration.</p>
