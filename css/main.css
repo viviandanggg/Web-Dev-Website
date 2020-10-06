@@ -100,7 +100,7 @@ header + main {
     display: none;
 }
 
-@media(max-width: 1000px) {
+@media(max-width: 1100px) {
     header {
         border-top: #D48C70 15px solid;
         background-color: rgba(231, 214, 192, .7);
@@ -124,7 +124,7 @@ header + main {
     }
 
     header + main {
-        padding-top: 150px;
+        padding-top: 170px;
     }
 
     nav {
@@ -169,7 +169,7 @@ header + main {
 
 }
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
     #header-logo > h1 {
        font-size: 2em;
     }
@@ -189,4 +189,5 @@ header + main {
     #tagline > h2 {
         font-size: .95m;
     }
+
 }
