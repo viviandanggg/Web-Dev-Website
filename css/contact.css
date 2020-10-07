@@ -1,8 +1,13 @@
+main {
+    display: flex;
+    justify-content: center;
+}
 #contact-root {
     margin: 0px 50px;
     margin-bottom: 20px;
     position: relative;
 }
+
 #contact-root > h3 {
     margin: 0;
     font-size: 2.5em;
@@ -14,15 +19,23 @@
 #contact-content {
     padding: 10px;
     border: rgba(255, 255, 255, .5) 15px solid;
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
 }
 
 #contact-content > img {
     height: 72vh;
     margin: 25px;
+    justify-self: end;
+}
+
+#contact-div {
+    justify-self: start;
 }
 
 form {
@@ -57,15 +70,90 @@ button {
     padding: 5px;
 }
 
+#social-links {
+    width: 80px;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 8px;
+}
+
 #social-links > a > img {
     width: 40px;
 }
 
-#insta {
-    margin-right: 5px;
-}
-
-#social-links > p {
+#social-title {
     margin-top: 25px;
     margin-bottom: 10px;
+}
+
+@media (max-width: 1250px) {
+    #contact-content > img {
+        height: 60vh;
+    }
+
+    input, textarea {
+        width: 450px;
+    }
+
+    #contact-root > h3 {
+        bottom: 94%;
+    }
+}
+
+@media (max-width: 1100px) {
+    #contact-content {
+        grid-template-rows: auto auto;
+        grid-template-columns: none;
+    }
+
+    #contact-div {
+        margin: 25px;
+    }
+
+    #contact-root > h3 {
+        bottom: 97.25%;
+        font-size: 2.25em;
+    }
+
+    #contact-content > img {
+        justify-self: center
+    }
+
+    input, textarea {
+        width: 450px;
+    }
+
+    #contact-div {
+        justify-self: center;
+    }
+}
+
+@media (max-width: 600px) {
+    #contact-content > img {
+        height: 47vh;
+    }
+
+    #contact-div {
+        margin: 25px;
+    }
+
+    #contact-root > h3 {
+        font-size: 2em;
+    }
+
+    #contact-content > img {
+        justify-self: center
+    }
+
+    input, textarea {
+        width: 350px;
+    }
+
+    #contact-div {
+        justify-self: center;
+    }
+
+    label, p, button {
+        font-size: 1em;
+    }
 }

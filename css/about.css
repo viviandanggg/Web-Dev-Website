@@ -117,7 +117,7 @@
 @media (max-width: 510px) {
     #about-content > img {
         border: 10px #E7D6C0 solid;
-        height: 21vh;
+        height: 30vh;
     }
 
     #about-text > h4 {
