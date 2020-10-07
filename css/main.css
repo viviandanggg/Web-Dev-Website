@@ -128,6 +128,9 @@ header + main {
     }
 
     nav {
+        background-color: rgba(231, 214, 192, .7);
+        border-right: 1px solid #D48C70;
+        border-bottom: 1px solid #D48C70;
         display: none;
         position: absolute;
         top: 100%;
@@ -141,11 +144,16 @@ header + main {
     .navlink {
         width: 100%;
         text-align: center;
-        border-top: 1px solid #E7D6C0;
+        border-top: 1px solid #D48C70;
+        /* border-top: 1px solid #E7D6C0; */
     }
 
     .navlink > a {
         padding: 20px 15px;
+    }
+
+    .navlink > a:hover {
+        color: white;
     }
 
     nav.open {

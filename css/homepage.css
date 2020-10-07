@@ -58,7 +58,7 @@ main {
     color: white;
 } 
 
-@media(max-width: 1000px) {
+@media(max-width: 1100px) {
     #homepage {
         height: 110vh;
     }
@@ -111,14 +111,15 @@ main {
     }
 }
 
-@media(max-width: 380px) {
+@media(max-width: 400px) {
     #outline {
         width: 290px;
-        height: 600px;
-        top: 8%;
+        height: 750px;
+        top: 9%;
     }
 
     #homepage-content {
+        bottom: 72%;
         left: -12%;
     }
 
@@ -127,10 +128,6 @@ main {
     }
 
     #covergirl {
-        height: 60vh;
-    }
-
-    .homepage-txt {
-        font-size: 1.5em;
+        height: 58vh;
     }
 }
