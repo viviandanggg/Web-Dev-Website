@@ -3,20 +3,21 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 0px 50px;
 }
 main > img {
-    width: 350px;
+    height: 400px;
     margin: 5px;
 }
 
 @media (max-width: 500px) {
     main > img {
-        width: 250px;
+        height: 250px;
     }
 }
 
 @media (max-width: 380px) {
     main > img {
-        width: 200px;
+        height: 200px;
     }
 }
