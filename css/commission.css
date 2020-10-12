@@ -1,7 +1,6 @@
 main {
     background-image: url("resized_background.png");
     background-size: 100% 100%;
-    ;
     background-repeat: no-repeat;
     padding-bottom: 10px;
 }
@@ -9,8 +8,7 @@ main {
 #commission {
     position: relative;
     border: rgba(255, 255, 255, .5) 15px solid;
-    margin: 0px 50px;
-    margin-bottom: 20px;
+    margin: 0px 50px 20px 50px;
 }
 
 #commission-content {
@@ -23,10 +21,9 @@ main {
 
 #commission-title {
     margin: 0px;
-    font-size: 2.5em;
     position: absolute;
     left: 5%;
-    bottom: 97%;
+    bottom: 96%;
 }
 
 #commission-content>img {
@@ -40,13 +37,11 @@ main {
 }
 
 #prices>h4 {
-    font-size: 1.75em;
     margin-top: 0px;
     margin-bottom: 30px;
 }
 
 #prices>p {
-    font-size: 1.25em;
     margin: 10px 0px;
 }
 
@@ -64,19 +59,14 @@ main {
 
 #reviews-title {
     position: absolute;
-    bottom: 72%;
+    bottom: 78%;
     left: 5%;
 }
 
-#reviews-title>h3 {
+#reviews-title>h3,
+#reviews-title>h4 {
     line-height: 85%;
     margin: 0;
-    font-size: 2.5em;
-}
-
-#reviews-title>h4 {
-    margin: 0;
-    font-size: 1.75em;
 }
 
 .quote {
@@ -92,7 +82,15 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.25em;
+}
+
+@media (max-width: 1100px) {
+    #commission-title {
+        bottom: 97%;
+    }
+    #reviews-title {
+        bottom: 80%;
+    }
 }
 
 @media (max-width: 700px) {
@@ -108,29 +106,14 @@ main {
         margin: 0px 15px;
         justify-self: start;
     }
+    #commission-title {
+        bottom: 98%;
+    }
 }
 
 @media (max-width: 500px) {
     #commission-content>img {
         height: 47vh;
-    }
-    #reviews-title>h3,
-    #commission-title {
-        font-size: 2.25em;
-    }
-    #commission-title {
-        bottom: 98%;
-    }
-    #reviews-title {
-        bottom: 74%;
-    }
-    #reviews-title>h4 {
-        font-size: 1.4em;
-    }
-    #prices>p,
-    .quote,
-    .quote-author {
-        font-size: 1em;
     }
 }
 
@@ -154,7 +137,7 @@ main {
         bottom: 97.5%;
     }
     #reviews-title {
-        bottom: 78%;
+        bottom: 81%;
     }
     #reviews-title>h4 {
         font-size: 1.2em;

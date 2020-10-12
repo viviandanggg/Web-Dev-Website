@@ -4,14 +4,12 @@ main {
 }
 
 #contact-root {
-    margin: 0px 50px;
-    margin-bottom: 20px;
+    margin: 0px 50px 20px 50px;
     position: relative;
 }
 
 #contact-root>h3 {
     margin: 0;
-    font-size: 2.5em;
     position: absolute;
     left: 5%;
     bottom: 95%;
@@ -23,6 +21,7 @@ main {
     display: grid;
     grid-template-columns: auto auto;
     align-items: center;
+    align-content: center;
 }
 
 #contact-content>img {
@@ -38,12 +37,6 @@ main {
 form {
     display: flex;
     flex-direction: column;
-}
-
-label,
-p,
-button {
-    font-size: 1.20em;
 }
 
 label {
@@ -86,19 +79,6 @@ button {
     margin-bottom: 10px;
 }
 
-@media (max-width: 1250px) {
-    #contact-content>img {
-        height: 60vh;
-    }
-    input,
-    textarea {
-        width: 450px;
-    }
-    #contact-root>h3 {
-        bottom: 94%;
-    }
-}
-
 @media (max-width: 1100px) {
     #contact-content {
         grid-template-rows: auto auto;
@@ -109,17 +89,14 @@ button {
     }
     #contact-root>h3 {
         bottom: 97.25%;
-        font-size: 2.25em;
     }
-    #contact-content>img {
+    #contact-content>img,
+    #contact-div {
         justify-self: center
     }
     input,
     textarea {
         width: 450px;
-    }
-    #contact-div {
-        justify-self: center;
     }
 }
 
@@ -130,24 +107,9 @@ button {
     #contact-div {
         margin: 25px;
     }
-    #contact-root>h3 {
-        font-size: 2em;
-    }
-    #contact-content>img {
-        justify-self: center
-    }
     input,
     textarea {
         width: 350px;
-    }
-    #contact-div {
-        justify-self: center;
-    }
-    label,
-    p,
-    button,
-    #social-title {
-        font-size: 1em;
     }
 }
 

@@ -1,7 +1,7 @@
 const navg = document.getElementById("navigation");
 const menuButton = document.getElementById("menu-button");
 
-const portfolioButton = document.getElementById("dropdown");
+const portfolioButton = document.getElementById("portfolio-dropdown");
 const dropdown = document.getElementById("dropdown-content");
 
 menuButton.addEventListener("click", event => {
