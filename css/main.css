@@ -153,10 +153,11 @@ header + main {
         background-color: rgba(231, 214, 192, .7);
         border-right: 1px solid #D48C70;
         border-bottom: 1px solid #D48C70;
-        display: none;
         position: absolute;
         top: 100%;
         left: 0;
+        transform: translateX(-100%);
+        transition: transform .3s linear;
     }
 
     #dropdown-content > a {
@@ -182,7 +183,7 @@ header + main {
     }
 
     nav.open {
-        display: block;
+        transform: translateX(0px);
     }
 
     #menu-button {
