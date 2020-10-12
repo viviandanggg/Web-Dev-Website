@@ -114,6 +114,10 @@ header + main {
     font-size: .8em;
 }
 
+#dropdown-content > a {
+    border-top: 1px solid #25190C;
+}
+
 #dropdown:hover #dropdown-content{
     display: block;
 }
@@ -155,6 +159,10 @@ header + main {
         left: 0;
     }
 
+    #dropdown-content > a {
+        border-top: 1px solid #E7D6C0;
+    }
+
     #navlinks {
         flex-direction: column;
     }
@@ -188,8 +196,22 @@ header + main {
         padding: 10px;
     }
 
-    #menu-button :hover {
+    #menu-button:hover {
         background-color: #D48C70;
+    }
+
+    #dropdown-content {
+        left: 100%;
+        top: 16.5%;
+        font-size: .9em;
+    }
+
+    #dropdown:hover #dropdown-content{
+        display: none;
+    }
+
+    #dropdown #dropdown-content.expand {
+        display: block;
     }
 
 
