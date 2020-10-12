@@ -5,19 +5,20 @@ main {
     justify-content: center;
     margin: 0px 50px;
 }
-main > img {
+
+main>img {
     height: 500px;
     margin: 5px;
 }
 
 @media (max-width: 600px) {
-    main > img {
+    main>img {
         height: 350px;
     }
 }
 
 @media (max-width: 380px) {
-    main > img {
+    main>img {
         height: 200px;
     }
 }

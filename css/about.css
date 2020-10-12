@@ -2,12 +2,13 @@ main {
     display: flex;
     justify-content: center;
 }
+
 #about-div {
     position: relative;
     margin: 0px 50px;
 }
 
-#about-content > img {
+#about-content>img {
     margin: 25px;
     margin-top: 35px;
     height: 50vh;
@@ -34,7 +35,7 @@ main {
     justify-self: start;
 }
 
-#about-div > h3 {
+#about-div>h3 {
     position: absolute;
     left: 5%;
     bottom: 95%;
@@ -42,35 +43,31 @@ main {
     font-size: 2.5em;
 }
 
-#about-text > h4 {
+#about-text>h4 {
     margin-top: 0;
     margin-bottom: 20px;
     font-size: 1.75em;
 }
 
-#about-text > p {
+#about-text>p {
     margin: 10px 0px;
     font-size: 1.25em;
 }
 
 @media (max-width: 1200px) {
-    #about-content > img {
+    #about-content>img {
         height: 50vh;
     }
-
     #about-text {
         width: 450px;
     }
-
-    #about-div > h3 {
+    #about-div>h3 {
         font-size: 2.35em;
     }
-
-    #about-text > h4 {
+    #about-text>h4 {
         font-size: 1.6em;
     }
-
-    #about-text > p {
+    #about-text>p {
         font-size: 1.15em;
     }
 }
@@ -80,67 +77,57 @@ main {
         grid-template-columns: none;
         grid-template-rows: auto auto;
     }
-
-    #about-content > img {
+    #about-content>img {
         justify-self: center;
         grid-row: 1;
         margin-bottom: 0;
     }
-
     #about-text {
         width: auto;
         justify-self: center;
         grid-row: 2;
     }
-
-    #about-div > h3 {
+    #about-div>h3 {
         bottom: 97%;
     }
 }
 
 @media (max-width: 660px) {
-    #about-content > img {
+    #about-content>img {
         height: 40vh;
     }
-
-    #about-text > h4 {
+    #about-text>h4 {
         font-size: 1.4em;
     }
-
-    #about-text > p {
+    #about-text>p {
         font-size: 1em;
     }
-
-    #about-div > h3 {
+    #about-div>h3 {
         font-size: 2.25em;
     }
 }
 
 @media (max-width: 510px) {
-    #about-content > img {
+    #about-content>img {
         border: 10px #E7D6C0 solid;
     }
-
-    #about-text > h4 {
+    #about-text>h4 {
         font-size: 1.35em;
     }
-
-    #about-text > p {
+    #about-text>p {
         font-size: 1em;
     }
-
-    #about-div > h3 {
+    #about-div>h3 {
         font-size: 2em;
         bottom: 97.25%;
     }
 }
 
 @media (max-width: 400px) {
-    #about-content > img {
+    #about-content>img {
         height: 25vh;
     }
-
-    #about-div > h3 {
+    #about-div>h3 {
         bottom: 97.5%;
     }
 }

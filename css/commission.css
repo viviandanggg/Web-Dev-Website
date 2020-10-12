@@ -1,6 +1,7 @@
 main {
     background-image: url("resized_background.png");
-    background-size: 100% 100%;;
+    background-size: 100% 100%;
+    ;
     background-repeat: no-repeat;
     padding-bottom: 10px;
 }
@@ -28,7 +29,7 @@ main {
     bottom: 97%;
 }
 
-#commission-content > img {
+#commission-content>img {
     justify-self: end;
     border: #25190C solid 15px;
     height: 50vh;
@@ -38,13 +39,13 @@ main {
     justify-self: start;
 }
 
-#prices > h4 {
+#prices>h4 {
     font-size: 1.75em;
     margin-top: 0px;
     margin-bottom: 30px;
 }
 
-#prices > p {
+#prices>p {
     font-size: 1.25em;
     margin: 10px 0px;
 }
@@ -67,13 +68,13 @@ main {
     left: 5%;
 }
 
-#reviews-title > h3 {
+#reviews-title>h3 {
     line-height: 85%;
     margin: 0;
     font-size: 2.5em;
 }
 
-#reviews-title > h4 {
+#reviews-title>h4 {
     margin: 0;
     font-size: 1.75em;
 }
@@ -86,7 +87,8 @@ main {
     margin-top: 0;
 }
 
-.quote-author, .quote {
+.quote-author,
+.quote {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -98,12 +100,10 @@ main {
         grid-template-columns: none;
         grid-template-rows: auto auto;
     }
-
-    #commission-content > img {
+    #commission-content>img {
         justify-self: center;
         margin-bottom: 15px;
     }
-
     #prices {
         margin: 0px 15px;
         justify-self: start;
@@ -111,27 +111,25 @@ main {
 }
 
 @media (max-width: 500px) {
-    #commission-content > img {
+    #commission-content>img {
         height: 47vh;
     }
-
-    #reviews-title > h3, #commission-title {
+    #reviews-title>h3,
+    #commission-title {
         font-size: 2.25em;
     }
-
     #commission-title {
         bottom: 98%;
     }
-
     #reviews-title {
         bottom: 74%;
     }
-
-    #reviews-title > h4 {
+    #reviews-title>h4 {
         font-size: 1.4em;
     }
-
-    #prices > p, .quote, .quote-author {
+    #prices>p,
+    .quote,
+    .quote-author {
         font-size: 1em;
     }
 }
@@ -143,33 +141,25 @@ main {
         justify-content: center;
         flex-direction: column;
     }
-
     #slides {
         margin-top: 15px;
     }
-
     .slide {
         width: 230px;
     }
-
-    #commission-content > img {
+    #commission-content>img {
         height: 30vh;
     }
-
     #commission-title {
         bottom: 97.5%;
     }
-
     #reviews-title {
         bottom: 78%;
     }
-
-    #reviews-title > h4 {
+    #reviews-title>h4 {
         font-size: 1.2em;
     }
-
     #prices {
         margin: 0;
     }
-
 }

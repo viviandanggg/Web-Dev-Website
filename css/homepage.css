@@ -56,32 +56,27 @@ main {
     font-size: 10em;
     margin: 0;
     color: white;
-} 
+}
 
 @media(max-width: 1100px) {
     #homepage {
         height: 110vh;
     }
-
     #outline {
         width: 500px;
         height: 650px;
     }
-
     #homepage-content {
         bottom: 67%;
         left: 30%;
         align-items: flex-end;
     }
-
     #wow {
         font-size: 9em;
     }
-
     #covergirl {
         height: 70vh;
     }
-
     .homepage-txt {
         font-size: 1.85em;
     }
@@ -92,20 +87,16 @@ main {
         width: 375px;
         height: 650px;
     }
-
     #homepage-content {
         bottom: 70%;
         left: 12%;
     }
-
     #wow {
         font-size: 8em;
     }
-
     #covergirl {
         height: 68vh;
     }
-
     .homepage-txt {
         font-size: 1.80em;
     }
@@ -117,16 +108,13 @@ main {
         height: 750px;
         top: 9%;
     }
-
     #homepage-content {
         bottom: 72%;
         left: -12%;
     }
-
     #wow {
         font-size: 6.5em;
     }
-
     #covergirl {
         height: 58vh;
     }
