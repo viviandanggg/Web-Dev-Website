@@ -13,9 +13,10 @@ main {
 }
 
 #commission-content {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
     align-items: center;
-    justify-content: center;
+    column-gap: 50px;
     padding: 30px;
 }
 
@@ -28,12 +29,13 @@ main {
 }
 
 #commission-content > img {
+    justify-self: end;
     border: #25190C solid 15px;
     height: 50vh;
 }
 
 #prices {
-    margin-left: 50px;
+    justify-self: start;
 }
 
 #prices > h4 {
@@ -89,4 +91,85 @@ main {
     justify-content: center;
     align-items: center;
     font-size: 1.25em;
+}
+
+@media (max-width: 700px) {
+    #commission-content {
+        grid-template-columns: none;
+        grid-template-rows: auto auto;
+    }
+
+    #commission-content > img {
+        justify-self: center;
+        margin-bottom: 15px;
+    }
+
+    #prices {
+        margin: 0px 15px;
+        justify-self: start;
+    }
+}
+
+@media (max-width: 500px) {
+    #commission-content > img {
+        height: 47vh;
+    }
+
+    #reviews-title > h3, #commission-title {
+        font-size: 2.25em;
+    }
+
+    #commission-title {
+        bottom: 98%;
+    }
+
+    #reviews-title {
+        bottom: 74%;
+    }
+
+    #reviews-title > h4 {
+        font-size: 1.4em;
+    }
+
+    #prices > p, .quote, .quote-author {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 400px) {
+    main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #slides {
+        margin-top: 15px;
+    }
+
+    .slide {
+        width: 230px;
+    }
+
+    #commission-content > img {
+        height: 30vh;
+    }
+
+    #commission-title {
+        bottom: 97.5%;
+    }
+
+    #reviews-title {
+        bottom: 78%;
+    }
+
+    #reviews-title > h4 {
+        font-size: 1.2em;
+    }
+
+    #prices {
+        margin: 0;
+    }
+
 }
