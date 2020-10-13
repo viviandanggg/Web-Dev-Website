@@ -101,10 +101,10 @@ main {
     }
 }
 
-@media(max-width: 400px) {
+@media(max-width: 420px) {
     #outline {
         width: 290px;
-        height: 680px;
+        height: 630px;
     }
     #homepage-content {
         bottom: 72%;
@@ -115,5 +115,15 @@ main {
     }
     #covergirl {
         height: 58vh;
+    }
+}
+
+@media(max-width: 320px) {
+    #outline {
+        width: 280px;
+        height: 550px;
+    }
+    #homepage-content {
+        bottom: 68%;
     }
 }

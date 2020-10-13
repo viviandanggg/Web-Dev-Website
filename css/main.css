@@ -238,3 +238,30 @@ nav,
         font-size: 1em;
     }
 }
+
+@media (max-width: 350px) {
+    #header-logo>h1 {
+        font-size: 1.8em;
+    }
+    #navlinks {
+        font-size: .8em;
+    }
+    #tagline>img {
+        width: 18px;
+    }
+    #tagline>h2,
+    #navlinks {
+        font-size: .8em;
+    }
+    h3 {
+        font-size: 1.8em;
+    }
+    h4 {
+        font-size: 1.2em;
+    }
+    p,
+    label,
+    button {
+        font-size: .9em;
+    }
+}
