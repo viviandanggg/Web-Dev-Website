@@ -30,7 +30,7 @@ main {
     justify-self: end;
 }
 
-#contact-div {
+#contact-form {
     justify-self: start;
 }
 
@@ -84,14 +84,14 @@ button {
         grid-template-rows: auto auto;
         grid-template-columns: none;
     }
-    #contact-div {
+    #contact-form {
         margin: 25px;
     }
     #contact-root>h3 {
         bottom: 97.25%;
     }
     #contact-content>img,
-    #contact-div {
+    #contact-form {
         justify-self: center
     }
     input,
@@ -104,7 +104,7 @@ button {
     #contact-content>img {
         height: 47vh;
     }
-    #contact-div {
+    #contact-form {
         margin: 25px;
     }
     input,
@@ -125,7 +125,7 @@ button {
     textarea {
         width: 260px;
     }
-    #contact-div {
+    #contact-form {
         margin: 15px;
     }
 }
