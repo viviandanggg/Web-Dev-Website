@@ -1,5 +1,5 @@
 main {
-    background-image: url("resized_background.png");
+    background-image: url("../images/resized_background.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     padding-bottom: 10px;
