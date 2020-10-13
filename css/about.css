@@ -3,11 +3,6 @@ main {
     justify-content: center;
 }
 
-#about-div {
-    position: relative;
-    margin: 0 50px 20px 50px;
-}
-
 #about-content>img {
     margin: 25px;
     margin-top: 35px;
@@ -18,10 +13,6 @@ main {
 
 #about-content {
     background-color: rgba(255, 255, 255, .5);
-    display: grid;
-    grid-template-columns: auto auto;
-    align-items: center;
-    align-content: center;
 }
 
 #about-text {
@@ -34,7 +25,7 @@ main {
     justify-self: start;
 }
 
-#about-div>h3 {
+#about-root>h3 {
     position: absolute;
     left: 5%;
     bottom: 95%;
@@ -50,10 +41,6 @@ main {
 }
 
 @media (max-width: 1100px) {
-    #about-content {
-        grid-template-columns: none;
-        grid-template-rows: auto auto;
-    }
     #about-content>img,
     #about-text {
         justify-self: center;
@@ -64,7 +51,7 @@ main {
     #about-text {
         width: auto;
     }
-    #about-div>h3 {
+    #about-root>h3 {
         bottom: 97%;
     }
 }
@@ -74,7 +61,7 @@ main {
         height: 40vh;
         border: 10px #E7D6C0 solid;
     }
-    #about-div>h3 {
+    #about-root>h3 {
         bottom: 97.25%;
     }
 }
@@ -83,7 +70,7 @@ main {
     #about-content>img {
         height: 25vh;
     }
-    #about-div>h3 {
+    #about-root>h3 {
         bottom: 97.5%;
     }
 }

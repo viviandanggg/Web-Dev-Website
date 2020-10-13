@@ -6,9 +6,7 @@ main {
 }
 
 #commission {
-    position: relative;
     border: rgba(255, 255, 255, .5) 15px solid;
-    margin: 0px 50px 20px 50px;
 }
 
 #commission-content {

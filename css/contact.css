@@ -3,11 +3,6 @@ main {
     justify-content: center;
 }
 
-#contact-root {
-    margin: 0px 50px 20px 50px;
-    position: relative;
-}
-
 #contact-root>h3 {
     margin: 0;
     position: absolute;
@@ -18,10 +13,6 @@ main {
 #contact-content {
     padding: 10px;
     border: rgba(255, 255, 255, .5) 15px solid;
-    display: grid;
-    grid-template-columns: auto auto;
-    align-items: center;
-    align-content: center;
 }
 
 #contact-content>img {
@@ -80,10 +71,6 @@ button {
 }
 
 @media (max-width: 1100px) {
-    #contact-content {
-        grid-template-rows: auto auto;
-        grid-template-columns: none;
-    }
     #contact-form {
         margin: 25px;
     }

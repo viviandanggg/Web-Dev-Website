@@ -21,6 +21,18 @@ h4 {
     font-size: 1.75em;
 }
 
+.root {
+    position: relative;
+    margin: 0 50px 20px 50px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    align-content: center;
+}
+
 p,
 label,
 button {
@@ -209,6 +221,10 @@ nav,
     }
     h4 {
         font-size: 1.6em;
+    }
+    .content {
+        grid-template-rows: auto auto;
+        grid-template-columns: none;
     }
 }
 
