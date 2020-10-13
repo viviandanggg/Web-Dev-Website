@@ -102,12 +102,8 @@ main {
 }
 
 @media(max-width: 400px) {
-    header+main {
-        padding-top: 100px;
-    }
     #outline {
         width: 290px;
-        height: 750px;
     }
     #homepage-content {
         bottom: 72%;
